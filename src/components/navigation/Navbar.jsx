@@ -19,7 +19,7 @@ function Navbar() {
       </div>
 
       <form className="mb-4 w-full md:mb-0 md:w-1/4">
-        <label className="hidden" for="search-form">
+        <label className="hidden" htmlFor="search-form">
           Search
         </label>
         <input
