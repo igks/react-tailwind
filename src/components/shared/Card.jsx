@@ -16,8 +16,8 @@ const Card = () => {
       </div>
 
       <div className="relative mt-6">
-        <div className="absolute bg-red-600 w-2 rounded-tl-lg rounded-bl-lg h-full"></div>
-        <div className="shadow-lg p-4 rounded-tr-2xl rounded-br-2xl pl-5">
+        <div className="absolute bg-red-600 w-2 rounded-l-2xl h-full"></div>
+        <div className="shadow-lg p-4 rounded-r-2xl pl-5">
           <div className="text-2xl font-bold font-sans text-gray-500 mb-2">
             Title
           </div>
@@ -31,8 +31,8 @@ const Card = () => {
       </div>
 
       <div className="relative mt-6">
-        <div className="absolute bg-blue-600 w-2 rounded-tl-lg rounded-bl-lg h-full"></div>
-        <div className="shadow-lg p-4 rounded-tr-2xl rounded-br-2xl">
+        <div className="absolute bg-blue-600 w-2 rounded-l-2xl h-full"></div>
+        <div className="shadow-lg p-4 rounded-r-2xl">
           <div className="text-2xl font-bold font-sans text-gray-500 mb-2">
             Title
           </div>
@@ -40,7 +40,17 @@ const Card = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. At
             reprehenderit dignissimos voluptate mollitia impedit ab quod
             suscipit, deleniti molestias, natus eius libero fuga quae beatae
-            dicta neque iure commodi cum.
+            dicta neque iure commodi cum. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. At reprehenderit dignissimos voluptate mollitia
+            impedit ab quod suscipit, deleniti molestias, natus eius libero fuga
+            quae beatae dicta neque iure commodi cum. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. At reprehenderit dignissimos voluptate
+            mollitia impedit ab quod suscipit, deleniti molestias, natus eius
+            libero fuga quae beatae dicta neque iure commodi cum. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. At reprehenderit
+            dignissimos voluptate mollitia impedit ab quod suscipit, deleniti
+            molestias, natus eius libero fuga quae beatae dicta neque iure
+            commodi cum.
           </div>
         </div>
       </div>
