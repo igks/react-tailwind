@@ -1,10 +1,26 @@
-import Navbar from "./components/shared/Navbar";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import Navbar from "./components/navigation/Navbar";
+import Sidebar from "./components/navigation/Sidebar";
+import { Button } from "./components/shared/Button";
+import Card from "./components/shared/Card";
 
 function App() {
   return (
-    <div className="">
+    <Router>
       <Navbar />
-    </div>
+      <div className="grid gap-4 grid-cols-12 container">
+        <div className="p-0 m-0 col-span-3">
+          <Sidebar />
+        </div>
+        <div className="col-span-9 flex justify-center items-center">
+          <Switch>
+            <Route path="/card" component={Card} />
+            <Route path="/button" component={Button} />
+          </Switch>
+        </div>
+      </div>
+    </Router>
   );
 }
 
