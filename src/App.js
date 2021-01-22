@@ -13,7 +13,7 @@ function App() {
         <div className="p-0 m-0 col-span-3">
           <Sidebar />
         </div>
-        <div className="col-span-9 flex justify-center items-center">
+        <div className="col-span-9 flex flex-col justify-center items-center">
           <Switch>
             <Route path="/card" component={Card} />
             <Route path="/button" component={Button} />
