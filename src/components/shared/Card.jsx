@@ -1,11 +1,15 @@
 import React from "react";
+import Icon from "./Icon";
 
 const Card = () => {
   return (
     <>
       <div className="shadow-lg p-4 rounded-2xl mt-6">
         <div className="text-2xl font-bold font-sans text-gray-500 mb-2">
-          Title
+          <div className="flex items-center">
+            <h4 className="mr-3">Title</h4>
+            <Icon icon="airplay" size={24} color="red" />
+          </div>
         </div>
         <div>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. At
